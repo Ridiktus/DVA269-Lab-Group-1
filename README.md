@@ -10,6 +10,7 @@ functions:
 5. Forgot password will prompt the user to enter an e-mail adress and if the e-mail is registered it will send to the users mail the username and a code needed to be able to change the password which did popup after the e-mail was found.
 
 The libraries used:
+
 *tkinter was used for the user inteface
 
 *hashlib was used to encrypt the password stored with sha256 bit encryption
