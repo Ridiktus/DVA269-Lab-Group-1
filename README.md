@@ -26,4 +26,4 @@ The libraries used:
 *random was used to generate the random code that would be used to be able to change password
 
 "problems" with the code:
-credentials would in a real enviroment be saved on a company server not localy.
+credentials would in a real enviroment be saved on a company server and not localy.
