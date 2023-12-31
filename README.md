@@ -2,12 +2,16 @@
 
 Uploaded here is the main python file of the lab
 
+We have a user as a main class, and different people like customer, nutritionist and customer support representative as child classes to the user. Nutritionist and support does not do anything in this version.
+
 functions:
-1. You can login using username and password
-2. you can register a new account using username, password and email
-3. When logged in you can delete your account or change the password
-4. A button to contact customer support exist which will open the mail app on a user's computer where the contact info of the company will already be written
-5. Forgot password will prompt the user to enter an e-mail adress and if the e-mail is registered it will send to the users mail the username and a code needed to be able to change the password which did popup after the e-mail was found.
+1. Customer can login using username and password
+2. Customer can register a new account using username, password and email
+3. When Customer is logged in they can delete their account or change their password
+4. A button to contact customer support exist which will open the mail app on a Customer's computer where the contact info of the company will already be written
+5. Forgot password will prompt the Customer to enter an e-mail adress and if the e-mail is registered it will send to the Customer's mail the username and a code needed to be able to change the password which did popup after the e-mail was found.
+
+  NOTE: To contact customer support or receive code for password recovery the "Company_email_config" must be configured with an Microsoft outlook email and password of choice with smtp enabled(usually enabled by default). 
 
 The libraries used:
 
@@ -26,4 +30,5 @@ The libraries used:
 *random was used to generate the random code that would be used to be able to change password
 
 "problems" with the code:
-credentials would in a real enviroment be saved on a company server and not localy.
+credentials would in a real-world environment be saved on a company server and not locally, same goes for the company e-mail credentials.
+
