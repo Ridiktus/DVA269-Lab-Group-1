@@ -4,7 +4,7 @@ Uploaded here is the main python file of the lab
 
 We have a user as a main class, and different people like customer, nutritionist and customer support representative as child classes to the user. Nutritionist and support does not do anything in this version.
 
-functions:
+**functions**:
 1. Customer can login using username and password
 2. Customer can register a new account using username, password and email
 3. When Customer is logged in they can delete their account or change their password
@@ -13,7 +13,7 @@ functions:
 
   **NOTE**: To contact customer support or receive code for password recovery the "Company_email_config" must be configured with an Microsoft outlook email and password of choice with smtp enabled(usually enabled by default). 
 
-The libraries used:
+**The libraries used**:
 
 *tkinter was used for the user inteface
 
@@ -29,6 +29,6 @@ The libraries used:
 
 *random was used to generate the random code that would be used to be able to change password
 
-"problems" with the code:
+**"problems" with the code**:
 credentials would in a real-world environment be saved on a company server and not locally, same goes for the company e-mail credentials.
 
