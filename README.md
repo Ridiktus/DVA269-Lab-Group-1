@@ -1,4 +1,4 @@
-# DVA269-Lab-Group-1 Python Health App
+# DVA269-Lab-Group-1 Python Diet App
 
 Uploaded here is the main python file of the lab
 
