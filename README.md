@@ -11,7 +11,7 @@ We have a user as a main class, and different people like customer, nutritionist
 4. A button to contact customer support exist which will open the mail app on a Customer's computer where the contact info of the company will already be written
 5. Forgot password will prompt the Customer to enter an e-mail adress and if the e-mail is registered it will send to the Customer's mail the username and a code needed to be able to change the password which did popup after the e-mail was found.
 
-  **_NOTE_**: To contact customer support or receive code for password recovery the "Company_email_config" must be configured with an Microsoft outlook email and password of choice with smtp enabled(usually enabled by default). 
+  **_NOTE_**: To contact customer support or receive code for password recovery the "Company_email_config" must be configured with an Microsoft outlook email and password of choice with smtp enabled(Seems to usually be enabled by default). 
 
 **_The libraries used_**:
 
