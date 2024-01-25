@@ -36,4 +36,18 @@ credentials would in a real-world environment be saved on a company server and n
 
 # **_Guide for installation_**
 
+Make sure you have the following files downloaded into the same folder before proceeding with the installation:
 
+1. **Health_app_group_1 part2.py**
+2. **FoodList.csv**
+3. **company_email_config.json**
+
+### Setting up `company_email_config.json`
+
+Before running the application, you need to configure the email settings in the `company_email_config.json` file. Open the file using a text editor and replace the placeholder values with your actual email credentials so you can receive a password reset and send mail to support:
+
+```json
+{
+    "email": "COMPANY_EMAIL_HERE",
+    "password": "COMPANY_EMAIL_PASSWORD_HERE"
+}
