@@ -36,6 +36,8 @@ credentials would in a real-world environment be saved on a company server and n
 
 # **_Guide for installation_**
 
+Python needs to be installed on the user's computer. The tested version is python 3.12.1
+
 Make sure you have the following files downloaded into the same folder before proceeding with the installation:
 
 1. **Health_app_group_1 part2.py**
@@ -51,3 +53,5 @@ Before running the application, you need to configure the email settings in the 
     "email": "COMPANY_EMAIL_HERE",
     "password": "COMPANY_EMAIL_PASSWORD_HERE"
 }
+
+After setting up you can just run the Health_app_group_1 part2.py
