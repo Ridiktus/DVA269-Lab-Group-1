@@ -34,3 +34,6 @@ To contact customer support or receive code for password recovery the "Company_e
 # **_"Problems" with the code_**
 credentials would in a real-world environment be saved on a company server and not locally, same goes for the company e-mail credentials.
 
+# **_Guide for installation_**
+
+
