@@ -10,6 +10,7 @@ We have a user as a main class, and different people like customer, nutritionist
 3. When Customer is logged in they can delete their account or change their password.
 4. A button to contact customer support exist which will open the mail app on a Customer's computer where the contact info of the company will already be written.
 5. Forgot password will prompt the Customer to enter an e-mail adress and if the e-mail is registered it will send to the Customer's mail the username and a code needed to be able to change the password which did popup after the e-mail was found.
+6. Generate mealplan will ask a user for the type of diet they are looking for, e.g. low-carb, high-protein, etc. And it will also ask for common allergens like gluten and dairy allergy.
 
 # **_NOTE_**
 To contact customer support or receive code for password recovery the "Company_email_config" must be configured with an Microsoft outlook email and password of choice with smtp enabled(Seems to usually be enabled by default). 
